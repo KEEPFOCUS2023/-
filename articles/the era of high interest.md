@@ -8,3 +8,9 @@ The price of capital can influence a lot of thing. In microeconomics, the altern
 The need of labor is quite obvious now ,as the cpi in service industries is still high and the labor cost is still quite expensive.
 
 To analyze this question, given I dont have a solid and comprehensive analyzing framework, the eaziest method is to analyze it through different angels.
+
+Then places with low labor cost can earn money, for example the developing countries in Southern-east Asia. Those countries can sell labor for higher prices and there exists huge demand.
+The labor in developed countries are alse facing *the larger need for labor to substitude for capital*. 
+- It has to be confirmed that why the labor need is so low as the Federal tampering while a lot of big enterprise anounce massive layoff. Those are not compatible.
+
+It need some macro framework.
