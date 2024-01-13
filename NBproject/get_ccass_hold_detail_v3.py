@@ -190,7 +190,7 @@ class MySpyder(BasicSpyder):
         df['col_shareholding']=df['col_shareholding'].str.replace(',','').astype(int)
         df['col_shareholding_percent']=df['col_shareholding_percent'].str.replace('%','').astype(float)
         df = df.reset_index(drop=True)
-        print(f'finished: {trade_date}: {ashare_code}')
+        # print(f'finished: {trade_date}: {ashare_code}')
         return df
 
     def spyder_main(self, hkshare_code_lst, ashare_code_lst, trade_date):
@@ -226,7 +226,7 @@ def main(start_date, end_date, n_threads=10):
         os.mkdir('ccass_hold_detail')
 
 
-    f=h5py.File(f'holdings_{startdate}_{enddate}.h5','w')
+    f=h5py.File(f'holdings_{start_date}_{end_date}.h5','w')
 
     for trade_date in date_lst:
         myspyder = MySpyder(maxtries=50)
@@ -263,8 +263,9 @@ def main(start_date, end_date, n_threads=10):
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
     # main(start_date='20230908', end_date='20230908', n_threads=10)
-    main(start_date='20240110', end_date='20240110', n_threads=10)
+    main(start_date='20231013', end_date='20231231', n_threads=10)
     end_time = datetime.datetime.now()
     print(f'Total time cost: {(end_time-start_time).seconds}s')
     
     # 5days for 38min
+    # 2.5 months for 6 hours 
